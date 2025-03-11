@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-checksum",
+  "name": "@trieloff/rollup-plugin-checksum",
   "description": "Rollup plugin that emits a file containing the checksum of all emitted chunks and assets.",
   "version": "1.0.1",
   "main": "lib/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andipaetzold/rollup-plugin-checksum.git"
+    "url": "git+https://github.com/trieloff/rollup-plugin-checksum.git"
   },
   "author": {
     "name": "Andi Pätzold",
@@ -26,7 +26,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andipaetzold/rollup-plugin-checksum/issues"
+    "url": "https://github.com/trieloff/rollup-plugin-checksum/issues"
   },
   "devDependencies": {
     "@semantic-release/changelog": "5.0.1",
