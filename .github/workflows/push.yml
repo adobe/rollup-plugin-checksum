@@ -25,6 +25,8 @@ jobs:
         run: npm run build
       - name: Test
         run: npm test
+      - name: Verify SRI Implementation
+        run: npm run verify:sri
 
       - name: Semantic Releases
         run: npm run semantic-release

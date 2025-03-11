@@ -10,6 +10,9 @@
   "scripts": {
     "build": "tsc",
     "test": "rollup --config test/rollup.config.js",
+    "test:sri": "rollup --config test/rollup.config.sri.js",
+    "test:sri:multi": "rollup --config test/rollup.config.sri-multi.js",
+    "verify:sri": "npm run test:sri && node ./scripts/verify-sri.js",
     "semantic-release": "semantic-release"
   },
   "repository": {
@@ -29,6 +32,7 @@
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.0",
     "@tsconfig/node12": "1.0.7",
+    "glob": "^7.1.7",
     "rollup": "2.43.0",
     "semantic-release": "17.4.2",
     "typescript": "4.2.3"
