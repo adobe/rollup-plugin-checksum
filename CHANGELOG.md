@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/adobe/rollup-plugin-checksum/compare/v1.1.0...v1.2.0) (2025-05-21)
+
+
+### Features
+
+* Update package name and repository to Adobe namespace ([de54d9d](https://github.com/adobe/rollup-plugin-checksum/commit/de54d9dd5b2defb6829bebea864fd81fc70f5a59))
+
 # [1.1.0](https://github.com/trieloff/rollup-plugin-checksum/compare/v1.0.1...v1.1.0) (2025-03-11)
 
 

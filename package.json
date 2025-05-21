@@ -1,7 +1,7 @@
 {
   "name": "@adobe/rollup-plugin-checksum",
   "description": "Rollup plugin that emits a file containing the checksum of all emitted chunks and assets.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "lib/index.js",
   "module": "lib/index.es.js",
   "files": [
