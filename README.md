@@ -5,13 +5,13 @@ Rollup plugin that emits a file containing the checksum of all emitted chunks an
 ## Installation
 
 ```
-npm install rollup-plugin-checksum --save-dev
+npm install @adobe/rollup-plugin-checksum --save-dev
 ```
 
 or
 
 ```
-yarn add rollup-plugin-checksum --dev
+yarn add @adobe/rollup-plugin-checksum --dev
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ The plugin must be added as last plugin.
 
 ```javascript
 // rollup.config.js
-import checksum from 'rollup-plugin-checksum';
+import checksum from '@adobe/rollup-plugin-checksum';
 
 export default {
 	input: './index.js',
